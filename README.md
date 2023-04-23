@@ -1,6 +1,6 @@
 <div style="width:100%;">
-  <h1 align="center" style="font-weight:bold; font-size: 7rem;">PYLFER</h1>
-  <h2 align="center" style="margin-top: 37px;">Share all you want on a P2P connection!</h2>
+  <h1 align="center" style="font-weight:bold; font-size: 7rem;">SharePy</h1>
+  <h2 align="center" style="margin-top: 37px;">A file Sharing System Using TCP protocol and Python</h2>
 </div>
 <br>
 <h2>Requirements:<h2>
