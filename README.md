@@ -2,10 +2,10 @@
   <h1 align="center" style="font-weight:bold; font-size: 7rem;">SharePy</h1>
   <h2 align="center" style="margin-top: 37px;">A file Sharing System Using TCP protocol and Python</h2>
   <h3 align="center" style="margin-top: 37px;">Made By team SharePy at Bennett University</h3>
-  <h3 align="center" style="margin-top: 37px;">Pratik Dwivedi - E21CSEU0096</h3>
-  <h3 align="center" style="margin-top: 20px;">Pratik Dwivedi - E21CSEU0096</h3>
-  <h3 align="center" style="margin-top: 20px;">Pratik Dwivedi - E21CSEU0096</h3>
-  <h3 align="center" style="margin-top: 20px;">Pratik Dwivedi - E21CSEU0096</h3>
+  <h3 align="center" style="margin-top: 37px;">Pratik Dwivedi -     E21CSEU0096</h3>
+  <h3 align="center" style="margin-top: 20px;">Raghavendra Prasad -     E21CSEU0075</h3>
+  <h3 align="center" style="margin-top: 20px;">Manishit Singh -     E21CSEU0100</h3>
+  <h3 align="center" style="margin-top: 20px;">Tejasvee Sheokand -     E21CSEU0090</h3>
 </div>
 <br>
 <h2>Requirements:<h2>
