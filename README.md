@@ -115,7 +115,7 @@ Check the list with <span>show whitelist</span> or <span>show blacklist</span>:
 ```
 
 <p class="subtitle">Enabling witelist/blacklist:</p>
-<p>Pylfer wont filter the clients ip if you don't enable the use of the lists.</p>
+<p>SharePy wont filter the clients ip if you don't enable the use of the lists.</p>
 
 ```console
 > set whitelist true
@@ -138,11 +138,11 @@ Check the list with <span>show whitelist</span> or <span>show blacklist</span>:
 ```
 
 <h3>Setting up a file server:</h3>
-If we want to create a file server, now we add the files:
+If we want to create a file server, we add the files:
 
 ```console
 > file add "C:/newtwo.jpg"
-> file allfilesin "C:/MyMusic/Decode"
+> file allfilesin "C:/MyMusic/Decode.mp3"
 ```
 
 check your list of files using <span>show files</span>:
