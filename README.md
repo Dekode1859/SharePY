@@ -247,7 +247,7 @@ Something like this should appear on the window
  >>
 ```
 
-The double greater-than sign indicates that you are connected to the server. Now you can throw commands to communicate with it.
+The double greater-than sign indicates that you are connected to the server. Now you can send commands to communicate with it.
 
 ```console
 >> help
