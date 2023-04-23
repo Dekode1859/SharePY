@@ -65,19 +65,19 @@ help
 
 <br>
 <h2>Setting up a server:</h2>
-<p>First we set the mode to server:</p>
+<p>Set mode to server:</p>
 
 ```console
 > set mode server
 ```
 
-<p>And the ip to our local ip:</p>
+<p>Set the ip to our local ip:</p>
 
 ```console
 > set ip locip
 ```
 
-<p>You can always check the current configuration to see if it worked with <span>show</span>:</p>
+<p>To check the current configuration<span>show</span>:</p>
 
 ```console
 > show
@@ -136,11 +136,11 @@ Check the list with <span>show whitelist</span> or <span>show blacklist</span>:
 If we want to create a file server, now we add the files:
 
 ```console
-> file add "C:/Test.jpg"
-> file allfilesin "C:/Music/Clasic"
+> file add "C:/newtwo.jpg"
+> file allfilesin "C:/MyMusic/Decode"
 ```
 
-You can always check your file list using <span>show files</span>:
+check your list of files using <span>show files</span>:
 
 ```console
  > show files
@@ -161,7 +161,7 @@ The numbers that appear in brackets are the index numbers, you can use this to d
 > file removen 0
 > show files
 
-  [0]   C:/Music/Clasic/Antonio Vivaldi - The Four Seasons - Summer.mp3
+  [0]   C:/Music/Clasic/Decode - Paramore.mp3
   [1]   C:/Music/Clasic/Antonio Vivaldi - The Four Seasons - Winter.mp3
   [2]   C:/Music/Clasic/Beethoven - 7th Symphony.mp3
   [3]   C:/Music/Clasic/Chopin - Nocturnes.m4a
@@ -170,7 +170,7 @@ The numbers that appear in brackets are the index numbers, you can use this to d
   [6]   C:/Music/Clasic/Symphony No. 9 - Beethoven.mp3
 ```
 
-Finally we launch the server:
+Launch the server:
 
 ```console
 > fire
@@ -223,9 +223,9 @@ Then you will see this text:
   Username:
 ```
 
-Now you have to type a username, this username will appear when you chat. And that's it, you can chat now!
-<p class="subtitle">If we connected to a file server: </p>
-Then you will see something like this:
+Now you have to type a username, this username will appear when you chat. Now you are ready to chat!
+<p class="subtitle">If we are connected to a file server: </p>
+Something like this should appear on the window
 
 ```console
  > fire
@@ -293,28 +293,28 @@ If the download list is empty, then we will download all the files.
  >> file addn 0 3 4
  >> show files
 
-  [0]   Antonio Vivaldi - The Four Seasons - Summer.mp3
-  [1]   Chopin - Nocturnes.m4a
-  [2]   Debussy - Arabesque No-1.mp3
+  [0]   Decode - Paramore.mp3
+  [1]   I miss the old u - Blackbear.m4a
+  [2]   Scream - Avenged Sevenfold.mp3
 
 ```
 
-Now we are ready for download:
+To download:
 
 ```console
 >> download
   Starting download...
 
-  Downloading Antonio Vivaldi - The Four Seasons - Summer.mp3: 100%|██████████████| 14.4M/14.4M [00:01<00:00, 13.9MB/s]
+  Downloading Decode - Paramore.mp3: 100%|██████████████| 14.4M/14.4M [00:01<00:00, 13.9MB/s]
   Done.
 
-  Downloading Chopin - Nocturnes.m4a: 100%|█████████████████████████████████████████| 154M/154M [00:01<00:00, 89.7MB/s]
+  Downloading I miss the old u - Blackbear.m4a: 100%|█████████████████████████████████████████| 154M/154M [00:01<00:00, 89.7MB/s]
   Done.
 
-  Downloading Debussy - Arabesque No-1.mp3: 100%|█████████████████████████████████| 6.05M/6.05M [00:01<00:00, 5.35MB/s]
+  Downloading Scream - Avenged Sevenfold.mp3: 100%|█████████████████████████████████| 6.05M/6.05M [00:01<00:00, 5.35MB/s]
   Done.
 
  >
 ```
 
-Note that when download is complete we are disconnected from the server (we have a single greater-than sign).
+Note that when download is complete we are disconnected from the server.
